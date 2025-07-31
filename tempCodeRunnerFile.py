@@ -1,6 +1,6 @@
-def display(n):
-    if n==0:
-        return
-    display(n-1)
-    print(n)
-display(4)
+def fibo(n,i=0):
+#     if i >= n:
+#         return 0
+#     return i+fibo(n,i+1)
+# ans = fibo(5)
+# print(ans)
